@@ -1,6 +1,6 @@
 # pytwist
 
-pytwist is a package intended for use by experimental physicists working on the fabrication and characterization of twisted graphene based devices.  The package includes three model classes: twisted bilayer (TBG), twisted double bilayer (TDBG), and mirror symmetric twisted trilayer (TTG). Each class is capable of accepting experimental parameters like twist angle, strain, and displacement field as input and computing the resulting band structures and densities of states in just a few lines of code.
+pytwist is a package intended for use by experimental physicists working on the fabrication and characterization of twisted graphene based devices.  The package includes three model classes: twisted bilayer (TBG), twisted double bilayer (TDBG), and mirror symmetric twisted trilayer (TTG). Each class is capable of accepting experimental parameters like twist angle, strain, and displacement field as input and computing the resulting band structures and densities of states in just a few lines of code.  Below we show an example calculation for twisted double bilayer graphene.  The syntax is the same for the other model classes.  See the documentation in the code for details.
 
 The calculations implement the continuum model formalism introduced by Bistritzer and MacDonald (2011).  See the following publications for more details:
 
@@ -26,7 +26,3 @@ pdos = tdbg.solve_PDOS()
 m = tdbg.solve_LDOS()
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
